@@ -1,0 +1,21 @@
+{
+	"name": "azure-durable-functions-for-integration-testing",
+	"dockerFile": "Dockerfile",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-dotnettools.csharp",
+		"ms-vscode.azurecli",
+		"ms-dotnettools.vscode-dotnet-runtime",
+		"ms-azuretools.vscode-bicep"
+	],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "dotnet restore",
+
+	"remoteUser": "vscode"
+}
