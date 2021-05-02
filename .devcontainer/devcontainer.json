@@ -11,7 +11,8 @@
 		"ms-dotnettools.csharp",
 		"ms-vscode.azurecli",
 		"ms-dotnettools.vscode-dotnet-runtime",
-		"ms-azuretools.vscode-bicep"
+		"ms-azuretools.vscode-bicep",
+		"hediet.vscode-drawio"
 	],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
